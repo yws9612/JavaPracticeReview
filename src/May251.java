@@ -27,7 +27,7 @@ public class May251 {
 		Add a=new Add();
 		System.out.println(a.add(1,4));
 		System.out.println(a.add(10));
-		a.pr();
+		a.pr();//인터페이스를 클래스에서 상속을 받았기때문에 출력 가능, 또한 추상메소드가 아닌 디폴트 메소드라 껍데기가 아닌 기능을 가진 메소드임
 	}
 
 }
